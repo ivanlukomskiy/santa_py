@@ -1,3 +1,8 @@
-name;email
-name1;email1@example.com
-name2;email2@example.com
+name;email;sex;group
+name1f;email1@example.com;f;
+name2mg1;email2@example.com;m;1
+name3fg1;email1@example.com;f;1
+name4m;email2@example.com;m;
+name5f;email1@example.com;f;
+name6mg2;email2@example.com;m;2
+name7fg2;email2@example.com;f;2
