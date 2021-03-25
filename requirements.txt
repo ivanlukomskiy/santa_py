@@ -1,2 +1,2 @@
 sortedcontainers
-PyYAML==5.2
+PyYAML==5.4
