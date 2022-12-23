@@ -18,7 +18,7 @@ with open("dist.txt", 'r') as file:
 
 def start(update: Update, context: CallbackContext):
     text = update.message.text.strip()
-    username = update.message.from_user['username']
+    username = update.message.from_user['username'].lower()
     print(f'Got message from {username}: {text}')
     if username in receiver_by_sender:
         recipient = receiver_by_sender[username]
